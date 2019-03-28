@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "169738764925",
+    "firebase_url": "https://ridesolo-49684.firebaseio.com",
+    "project_id": "ridesolo-49684",
+    "storage_bucket": "ridesolo-49684.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169738764925:android:d9b7093dfb1adf90",
+        "android_client_info": {
+          "package_name": "com.example.dell.ridesolo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169738764925-ipspvvmd5ejac572196ii665lr444gvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.ridesolo",
+            "certificate_hash": "c3517faa483f2d06d4fef3621b2cc756b73691fd"
+          }
+        },
+        {
+          "client_id": "169738764925-e9cod9coaicbgpbbk5d3c1e5t54o00qp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF4j5daaoWPY7Q2hXzgG0OPZLStuOQKnQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169738764925-e9cod9coaicbgpbbk5d3c1e5t54o00qp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

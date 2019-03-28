@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".detail">
+
+    <in.shadowfax.proswipebutton.ProSwipeButton
+        android:id="@+id/awesome_btn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="680dp"
+        app:bg_color="@android:color/holo_blue_dark"
+        app:btn_text="End Ride"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="420dp"
+        android:layout_height="678dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="534dp"
+            android:background="@drawable/yellow_bg"
+            android:text="LOADING......"
+            android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="253dp"
+            android:background="@drawable/yellow_bg"
+            android:text="LOADING....."
+
+            android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="346dp"
+            android:background="@drawable/yellow_bg"
+
+            android:text="LOADING......"
+            android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="442dp"
+
+            android:background="@drawable/yellow_bg"
+            android:text="LOADING....."
+            android:textAppearance="@android:style/TextAppearance.Widget.TextView"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="112dp"
+            android:layout_marginLeft="108dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginRight="105dp"
+            android:layout_marginBottom="89dp"
+            app:srcCompat="@drawable/biketrans" />
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/design_default_color_primary_dark"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+</android.support.constraint.ConstraintLayout>

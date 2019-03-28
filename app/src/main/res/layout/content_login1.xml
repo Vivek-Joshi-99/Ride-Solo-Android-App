@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/iddd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".login1"
+    android:background="#F7F2F2"
+    tools:showIn="@layout/app_bar_login1">
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="124dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="TO BOOK"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="113dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="552dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/down_arrow" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="242dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="480dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/biketrans" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="113dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="552dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/down_arrow" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="124dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="260dp"
+        android:layout_marginRight="260dp"
+        android:text="TO RENT"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
